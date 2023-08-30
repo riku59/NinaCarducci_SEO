@@ -347,6 +347,12 @@
             ></textarea>
             <input type="submit" value="Envoyer" />
           </form>
+          <div itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
+            <span itemprop="addressLocality">Bordeaux</span>,
+            <span itemprop="postalCode">33200</span>,
+            <span itemprop="addressCountry">France</span>
+          </div>
         </div>
         <div class="picture right">
           <img src="./assets/images/camera.webp" alt="appareil Photo" />
@@ -361,19 +367,5 @@
     ></script>
     <script src="./assets/maugallery.js"></script>
     <script src="./assets/scripts.js"></script>
-    <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "Nina Carducci",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "68 avenue Alsace-Lorraine",
-          "addressLocality": "Bordeaux",
-          "postalCode": "33200",
-          "addressCountry": "France"
-        }
-      }
-    </script>
   </body>
 </html>
